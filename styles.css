@@ -8,16 +8,15 @@ body {
     
 }
 
-.header {
+header {
     position:fixed;
-    border: 1px solid seashell;
+    border-bottom: 1px solid seashell;
     display:block;
     top:0;
     background-color:black;
     height:69px;
     width:100%
     
-
 }
 
 #logo {
@@ -31,7 +30,34 @@ body {
     float:right;
     height:100%;
     margin:0 auto;
+    color:seashell;
+    padding-top:35px;
+    padding-right:25px;
+
     
+}
+
+ul.breadcrumb li {
+    text-decoration:underline;
+    display:inline;
+
+}
+
+.mission-container {
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:700px;
+    max-width: 1200px;
+    margin:40px;
+    display:flex;
+    
+}
+
+.text-over {
+    margin: auto;
+    width:100%;
+    background-color: black;
 }
 
 .image-container {
@@ -40,6 +66,12 @@ body {
    flex-wrap: wrap;
    justify-content: center;
    
+}
+
+.images img {
+    height:200px;
+    width: 300px;
+    padding: 0px 15px;
 }
 
 
