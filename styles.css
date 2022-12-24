@@ -31,10 +31,8 @@ header {
     height:100%;
     margin:0 auto;
     color:seashell;
-    padding-top:35px;
+    padding-top:25px;
     padding-right:25px;
-
-    
 }
 
 ul.breadcrumb li {
@@ -74,5 +72,48 @@ ul.breadcrumb li {
     padding: 0px 15px;
 }
 
+.image-container h4 {
+    margin:10px 0;
+    padding-bottom:20px;
+}
 
+.location-container {
+    background-image: url(img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+    height:500px;
+    max-width:1200px;
+    padding-top:50px;
+    margin:40px;
+
+}
+
+.location h3 p {
+    padding-bottom:40px;
+    margin:auto;
+}
+
+.box-container {
+    max-width:1050px;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    opacity:1;
+}
+
+.location {
+    width:300px;
+    height:300px;
+    padding:20px;
+    margin:0px 20px;
+    flex-basis:30%;
+    background-color:black;
+    box-sizing:border-box;
+    opacity:1;
+}
+
+.h2 {
+    margin-bottom:15px;
+}
 
