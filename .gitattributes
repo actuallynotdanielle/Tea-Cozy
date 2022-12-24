@@ -1,2 +1,44 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\index.css">
+    <title>Tea Cozy</title>
+</head>
+<body>
+    <!---Header Section-->
+     <header>
+        <img src="">
+         <ul class="breadcrumb">
+            <a href="#mission"><li>Mission</li></a>
+            <a href="#featured"><li>Featured</li></a>
+            <a href="locations"><li>Locations</li></a>
+         </ul>
+     </header>
+
+    <!---Mission Section-->
+     <div id="mission">
+        <div class="mission-container">
+            <div class="text-over">
+                <h2>Our Mission</h2>
+                  <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+            </div>
+        </div>
+     </div>
+    
+     <!--Featured Teas-->
+      <div id="featured">
+        <div class="featured-container">
+            <h2>Tea of the Month</h2>
+             <h4>What's steeping at The Tea Cozy?</h4>
+               <div class="images">
+                <img src=""
+               </div>
+        </div>
+      </div>
+</body>
+</html>
