@@ -39,6 +39,14 @@ ul.breadcrumb li {
     text-decoration:underline;
     display:inline;
 
+
+}
+
+.breadcrumb a li {
+    vertical-align:middle;
+    display:table-cell;
+    text-decoration:underline;
+    color:white;
 }
 
 .mission-container {
@@ -117,3 +125,14 @@ ul.breadcrumb li {
     margin-bottom:15px;
 }
 
+.footer {
+    font-size: 20px;
+    height:200px;
+}
+
+.copyright {
+    font-size:20px;
+    float:left;
+    padding:20px;
+    padding-top: 10px;
+}
